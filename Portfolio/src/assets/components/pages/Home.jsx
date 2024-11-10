@@ -8,7 +8,7 @@ const Home = ()=>{
     return (
         <div>
             <marquee behavior="" direction="right">
-                <h1>HELLO 😎, WELCOME TO MY PORTFOLIO!</h1>
+                <h2>HELLO 😎, WELCOME TO MY PORTFOLIO!</h2>
             </marquee>
             <About/>
             <Capability/>
