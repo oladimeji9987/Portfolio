@@ -1,4 +1,4 @@
-import image1 from "./images/whatsapp.png"
+import image1 from "./images/whats3d-removebg-preview.png"
 import image2 from "./images/linkedin.png"
 import image3 from "./images/github.png"
 
