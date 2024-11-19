@@ -7,7 +7,7 @@ import Contact from "../Contact";
 const Home = ()=>{
     return (
         <div>
-            <marquee behavior="" direction="right">
+            <marquee behavior="" direction="left">
                 <h2>HELLO 😎, WELCOME TO MY PORTFOLIO!</h2>
             </marquee>
             <About/>

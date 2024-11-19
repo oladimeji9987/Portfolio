@@ -12,6 +12,16 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-bottom: 1px solid gray;
     gap: 30px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+.links{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+
 }
 
 .abt{
@@ -112,4 +122,29 @@
 
 .navBar a{
     text-decoration: none;
+}
+
+@media (max-width:550px) {
+    .links{
+        display: none;
+    }
+}
+
+@media (max-width:430px) {
+    #name{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 540px) {
+    .pro img{
+        display: flex;
+        flex-direction: column;
+        height: 120px;
+        width: 150px;
+        h1, h2{
+            font-size: 18px;
+        }
+    }
+    
 }

@@ -13,7 +13,7 @@ const Contact = ()=>{
             <a href="https://www.linkedin.com/in/oladimeji-ismaheel/"><img src={image2} alt="" /></a>
             <a href="https://github.com/oladimeji9987/"><img src={image3} alt="" /></a>
 
-            <marquee behavior="" direction="right"><h1><i>Thanks for your time, bye👋</i></h1></marquee>
+            <marquee behavior="" direction="left"><h1>Thanks for your time, bye👋</h1></marquee>
         </div>
     )
 }
